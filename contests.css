@@ -1,61 +1,61 @@
 /* Опросы - полоски процентов, магия и т.д. */
 
 .b-poll .poll-variants .poll-variant.result {
-    overflow: hidden;
-  	display: flex;
-    position: relative;
+	overflow: hidden;
+	display: flex;
+	position: relative;
 	padding: 5px;
-  	margin-top: 10px;
-  	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 	border-radius: 4px;
 }
 
 .b-poll .poll-variants .poll-variant.result .votes-total {
-    color: #556;
-    margin-left: 0px;
-    z-index: 1;
-    order: 3;
+	color: #556;
+	margin-left: 0px;
+	z-index: 1;
+	order: 3;
 }
 
 
 .b-poll .poll-variants .poll-variant.result .votes-total::before {
 	content: '・';
-  	color: #555;
+	color: #555;
 }
 
 .b-poll .poll-variants .poll-variant.result .votes-percent {
-    color: #556;
-    margin-right: 4px;
-    position: absolute;
-    z-index: 1;
-    right: 0;
+	color: #556;
+	margin-right: 4px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
 }
 
 .b-poll .poll-variants .poll-variant label {
-    z-index: 10;
-    max-width: 70%;
-    margin-left: 10px;
+	z-index: 10;
+	max-width: 70%;
+	margin-left: 10px;
 }
 
 .b-poll .bar.horizontal {
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-    position: absolute;
-    top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+	top: 0;
 	border-radius: 4px;
 }
 
 /* Для Рики: неактивная полоска процентов */
 
 .b-poll .poll-variants .poll-variant.result .bar .line {
-    padding: 0;
-    background: #cff2ff;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
+	padding: 0;
+	background: #cff2ff;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
 	border-radius: 4px;
 }
 
@@ -71,14 +71,14 @@
 .bar.simple .bar:hover.s0 { background: #444444;}
 
 .b-poll .poll-variants .poll-variant.result .bar .bar {
-    height: 100%;
-    z-index: 0;
+	height: 100%;
+	z-index: 0;
 }
 
 /* Для Рики: ховер полоски процентов */
 
 .b-poll .poll-variants .poll-variant.result:hover .bar {
-    background: #98c2e3;
+	background: #98c2e3;
 }
 
 /* Опросы - чиним центровку */
@@ -90,9 +90,9 @@
 /* Опросы - размеры */
 
 .b-poll {
-  	border-radius: 10px;
-    width: 100%;
-    max-width: 630px;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 630px;
 	box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.40);
 }
 
@@ -105,16 +105,16 @@
 }
 
 .b-poll .poll-variants {
-    max-width: 95%;
+	max-width: 95%;
 	padding: 7px;
 	padding-top: 0px;
 	padding-bottom: 15px;
-  	margin: auto;
-  	margin-bottom: 0;
+	margin: auto;
+	margin-bottom: 0;
 }
 
 .b-poll:last-child {
-    margin-bottom: 2px;
+	margin-bottom: 2px;
 }
 
 /* Пикча на фоне */
@@ -123,30 +123,30 @@
 
 .b-poll {
 	background-image: url(https://i.imgur.com/Ub5q41g.jpg);
-  background-position: top center;
-  background-size: 100%;
-    background-repeat: no-repeat;
-  background-color: #FAFAFF;
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #FAFAFF;
 }
 
 .b-poll .poll .name {
-    font-weight: bold;
-    padding-top: 45px;
-    padding-bottom: 30px;
-  	font-size: 20px;
+	font-weight: bold;
+	padding-top: 45px;
+	padding-bottom: 30px;
+	font-size: 20px;
 }
 
 /* Опросы - голосование */
 
 .b-poll .poll-variants .poll-variant.pending {
-    padding: 5px;
-  	padding-left: 10px;
-    background: #cff2ff;
-    width: 100%;
-    height: 100%;
-  	margin: auto;
-  	margin-top: 10px;
-  	border-radius: 4px;
+	padding: 5px;
+	padding-left: 10px;
+	background: #cff2ff;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 4px;
 }
 
 .b-poll .poll-variants .poll-variant.pending .b-radio {
@@ -154,7 +154,7 @@
 }
 
 .b-poll .b-radio input[type="radio"] + .radio-label::before {
-    background: #FFF;
+	background: #FFF;
 }
 
 .b-poll .poll-actions .abstain, .b-poll .poll-actions .vote {
@@ -176,21 +176,21 @@
 }
 
 .b-poll .poll-variants .poll-variant.result label .voted-for {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #4c75a3;
-    border-radius: 50%;
-    border: 1px #A6BAD1 dashed;
-  	color: white;
-    text-align: center;
-    padding: 0;
-    right: 50px;
-  top: 5px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #4c75a3;
+	border-radius: 50%;
+	border: 1px #A6BAD1 dashed;
+	color: white;
+	text-align: center;
+	padding: 0;
+	right: 50px;
+	top: 5px;
 }
 
 .b-poll .poll-variants .poll-variant.result:last-child:after {
-    content: '';
+	content: '';
 }
 
 /* Статистика опросов */
@@ -215,7 +215,7 @@
 }
 
 .polls-stat {
-border-bottom: 1px silver solid;
+	border-bottom: 1px silver solid;
 }
 
 .polls-stat .c-column {
