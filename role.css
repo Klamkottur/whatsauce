@@ -1,0 +1,150 @@
+/* Роли */
+
+/* Подсказка */
+.b-comment header a.name:hover:after
+{
+    position: absolute;
+    content: none;
+    font-size: 11px;
+    padding: 4px 10px 4px 10px;
+    margin-top: -2px;
+    text-align: center;
+    margin-left: 6px;
+    color: white;
+    background: rgba(0,0,0,0.8) !important;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.9);
+    z-index: 1;
+	white-space: pre;
+    text-align: left;
+}
+
+/* Кодзима, подсказка */
+.b-comment[data-user_id="583040"]:not(.tooltipped) header a.name:hover:after {
+	content: "Порнокошка\0a\0aАдмин клуба ー Знаток №1";
+}
+
+/* Рикки-Тикки-Тави, подсказка */
+.b-comment[data-user_id="626523"]:not(.tooltipped) header a.name:hover:after {
+	content: "Наизлобнейший сёта-мангуст\0a\0aАдмин клуба";
+}
+
+/* Хорнизавр */
+
+.b-comment[data-user_id="368465"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны";
+}
+
+
+/* Иероглиф-тян */
+
+.b-comment[data-user_id="464837"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Главная извращенка шики, цундере, злобная староста\0a\0aЗнаток №2 ー Авантюрист 9 ранга: Обсидиановый";
+}
+
+
+/*fullmetal*/
+.b-comment[data-user_id="126157"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 8 ранга: Стальной";
+}
+
+
+
+/* tikhoplet */
+.b-comment[data-user_id="323591"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист №2 (Ранг 7: Сапфировый)";
+}
+
+/* Лолитрап */
+.b-comment[data-user_id="81056"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Лоли-трап\0a\0aАвантюрист 8 ранга: Стальной)";
+}
+
+/* Хомяк */
+.b-comment[data-user_id="277054"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Хомяк.\0a\0aАвантюрист №3 (Ранг 7: Сапфировый)";
+}
+
+/* Daisuke Kanbe 753419 */
+
+.b-comment[data-user_id="753419"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 9 ранга: Обсидиановый";
+}
+
+/* kvaxion 163912 */
+
+.b-comment[data-user_id="163912"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Жена Pixl\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны";
+}
+
+/* Leyka 429284 */
+
+.b-comment[data-user_id="429284"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
+
+/* Pixl 213997 */
+
+.b-comment[data-user_id="213997"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Григорий на льду, муж kvaxion\0a\0aАвантюрист 10 ранга: Фарфоровый";
+}
+
+/* MaDDanieL 563020 */
+
+.b-comment[data-user_id="563020"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Ворвался в топ с ноги\0a\0aАвантюрист 10 ранга: Фарфоровый";
+}
+
+/* World_Houp 34807 */
+
+.b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
+}
+
+
+/* Ники админов */
+.b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name,
+.b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name,
+.b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name
+{
+	color: crimson !important; 
+}
+
+/* Ник извращенки */
+.b-comment[data-user_id="464837"] header a.name, .b-user[id="464837"] a.name
+{
+	color: #777 !important; 
+}
+
+/* Ник хорнизавра */
+.b-comment[data-user_id="368465"] header a.name, .b-user[id="368465"] a.name
+{
+	color: #d000be !important; 
+}
+
+/* Ник лолитрапа */
+.b-comment[data-user_id="81056"] header a.name, .b-user[id="81056"] a.name
+{
+	color: #9400D3 !important; 
+}
+
+/* Ники авантюристов */
+.b-comment[data-user_id="323591"] header a.name, .b-user[id="323591"] a.name,
+.b-comment[data-user_id="126157"] header a.name, .b-user[id="126157"] a.name,
+.b-comment[data-user_id="277054"] header a.name, .b-user[id="277054"] a.name,
+.b-comment[data-user_id="34807"] header a.name, .b-user[id="34807"] a.name
+{
+	color: #00aa11 !important; 
+}
