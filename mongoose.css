@@ -1,0 +1,75 @@
+/* мангустопокалипсис */
+
+.b-comment[data-user_id="626523"] > a::after {
+    background: url(https://i.imgur.com/roElHAn.png) no-repeat;
+    background-size: 30px 30px;
+    position: absolute;
+    display: block;
+    width: 30px !important;
+    height: 30px !important;
+    content: "";
+    top: -20px;
+    left: 9px;
+    transform: rotate(0deg);
+    z-index: 2;
+}
+
+.b-comment[data-user_id="626523"] > a {
+	position: relative;
+  	font-size: 0;
+}
+
+.b-comment.aside-expanded[data-user_id="626523"] > a::after {
+	margin-left: -250px;
+}  
+
+@media screen and (max-width: 767px) {
+.b-comment[data-user_id="626523"] > a::after {
+	background-size: 22px 22px;
+    width: 22px !important;
+    height: 22px !important;
+    top: -15px;
+    left: 5px;
+}
+}
+
+.b-comment[data-user_id="626523"][id$="0"] > a::after { background-image: url(https://i.imgur.com/roElHAn.png); }
+.b-comment[data-user_id="626523"][id$="1"] > a::after { background-image: url(https://i.imgur.com/l14VKJ2.png); }
+.b-comment[data-user_id="626523"][id$="2"] > a::after { background-image: url(https://i.imgur.com/6bhs69c.png); }
+.b-comment[data-user_id="626523"][id$="3"] > a::after { background-image: url(https://i.imgur.com/hCxh6cn.png); }
+.b-comment[data-user_id="626523"][id$="4"] > a::after { background-image: url(https://i.imgur.com/FKP9oJS.png); }
+.b-comment[data-user_id="626523"][id$="5"] > a::after { background-image: url(https://i.imgur.com/q0MylnZ.png); }
+.b-comment[data-user_id="626523"][id$="6"] > a::after { background-image: url(https://i.imgur.com/Uob91Pc.png); }
+.b-comment[data-user_id="626523"][id$="7"] > a::after { background-image: url(https://i.imgur.com/W1nQlmX.png); }
+.b-comment[data-user_id="626523"][id$="8"] > a::after { background-image: url(https://i.imgur.com/ckLpOs9.png); }
+.b-comment[data-user_id="626523"][id$="9"] > a::after { background-image: url(https://i.imgur.com/kmRwa3y.png); }
+
+/* ахах */
+
+.b-comment[data-user_id="626523"] > .inner > header > a::after {
+    background: url(https://i.imgur.com/0NHl0Ow.jpg) no-repeat;
+    background-size: 48px 48px;
+    position: absolute;
+    display: block;
+    width: 48px !important;
+    height: 48px !important;
+    content: "";
+    top: 1px;
+    z-index: 1;
+}
+
+.b-comment[data-user_id="6265213"] > .inner > header > a {
+	position: relative;
+  	font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+.b-comment[data-user_id="626523"] > .inner > header > a::after {
+    background-size: 32px 32px;
+    width: 32px !important;
+    height: 32px !important;
+    top: 1x;
+}
+
+}
