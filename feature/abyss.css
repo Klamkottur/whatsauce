@@ -6,8 +6,6 @@
 	--abyss-calc: calc( var(--abyss-count) * (100 / var(--abyss-total)));
 }
 
-.d-a {}
-
 .abyss-cont {
 	display: block !important;
 	width: calc(100% - 80px);
