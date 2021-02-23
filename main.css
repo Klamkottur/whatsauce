@@ -1,0 +1,120 @@
+/* main */
+body { 
+	background: url(https://i.imgur.com/nPT62gD.png) repeat fixed bottom; 
+	background-size: cover;
+}
+
+.l-page { 
+	outline: 20px solid rgba(255, 255, 255, 0.3); 
+	margin-bottom: 20px; 
+}
+
+@media screen and (min-width: 1025px) { 
+.l-top_menu-v2 { 
+	position: sticky; 
+	top: 0; 
+} 
+  
+.l-top_menu-v2 .active .submenu { 
+	max-height: calc(100vh - var(--top-menu-height)); 
+	overflow-y: auto; 
+}
+}
+
+/*Спойлеры*/
+.b-spoiler_block > span {
+  background-color: var(--headline) !important;
+  color: var(--invert_main);
+}
+
+.b-spoiler_block>div {
+    background-color: var(--darker_main);
+    border-left: none;
+    padding: 15px 0px 3px 0px;
+}
+
+/* Заголовки */
+
+.subheadline, .midheadline, .headline {
+	color: var(--headline-text);
+  	background-color: var(--headline);
+  	border-color: var(--main_title);
+}
+
+/* Кнопки */
+
+.b-link_button {
+	color: var(--headline-text);
+  	background-color: var(--headline);
+}
+
+/* Описания страниц */
+
+@media screen and (min-width: 768px) {
+.cc-link >.c-column:first-child {
+    width: 20%;
+}
+
+.cc-link >.c-column:last-child:not(:first-child) {
+    width: 76%;
+}
+}
+
+@media screen and (max-width: 767px) {
+.halfposter {
+  	width: 30%;
+}
+}
+
+.halfposter img {
+	border: 1px var(--main_title) solid;
+	border-radius: 5px;
+}
+
+/* Скрытие раздела топиков */
+
+.p-clubs-show > .l-page > div > .menu-slide-outer > .menu-slide-inner > .l-content > div:nth-child(4) {
+    display: none;
+}
+
+/*отображение старых топиков*/
+
+.b-topic-preview[id="321097"] .body img, .b-topic-preview[id="321097"] .b-comments,
+.b-topic-preview[id="321321"] .body img, .b-topic-preview[id="321321"] .b-comments {
+	display: none;
+}
+
+.b-topic-preview[id="321097"] .body span,
+.b-topic-preview[id="321321"] .body span {
+	font-size: 13px !important;
+}
+
+/*блок комментов старых топиков*/
+
+.b-topic[id="321321"] .editor-container input[type="submit"] {
+ display: none; 
+}
+
+.b-topic[id="321097"] .editor-container input[type="submit"] {
+ display: none; 
+}
+
+/*oshibki*/
+.b-feedback {
+visibility: hidden;
+}
+
+/* для тех, кто без стилей */
+.see-our-club-with-styles-pls {
+	display: none;
+}
+
+/* кнопки в угадайке */
+
+.n-pages {
+    margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 2px 15px 2px 16px;
+  	color: black;
+  	background-color: var(--headline);
+}
