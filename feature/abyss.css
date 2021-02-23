@@ -1,5 +1,11 @@
 /* Бездна */
 
+:root {
+	--abyss-count: 0;
+	--abyss-total: 40;
+	--abyss-calc: calc( var(--abyss-count) * (100 / var(--abyss-total)));
+}
+
 .d-a {}
 
 .abyss-cont {
