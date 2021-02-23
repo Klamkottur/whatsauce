@@ -1,4 +1,6 @@
 /* main */
+.d-a {}
+
 body { 
 	background: url(https://i.imgur.com/nPT62gD.png) repeat fixed bottom; 
 	background-size: cover;
@@ -23,14 +25,14 @@ body {
 
 /*Спойлеры*/
 .b-spoiler_block > span {
-  background-color: var(--headline) !important;
-  color: var(--invert_main);
+	background-color: var(--headline) !important;
+	color: var(--invert_main);
 }
 
 .b-spoiler_block>div {
-    background-color: var(--darker_main);
-    border-left: none;
-    padding: 15px 0px 3px 0px;
+	background-color: var(--darker_main);
+	border-left: none;
+	padding: 15px 0px 3px 0px;
 }
 
 /* Заголовки */
@@ -51,8 +53,8 @@ body {
 /* top-menu */
 
 .l-top_menu-v2 {
-    background-size: contain;
-    background-color: var(--top_menu);
+	background-size: contain;
+	background-color: var(--top_menu);
 }
 
 .l-top_menu-v2 .menu-dropdown>span {
@@ -64,39 +66,39 @@ body {
 }
 
 .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active>span, .l-top_menu-v2 .menu-dropdown>span:focus {
-    background-color: var(--top_menu-v3);
+	background-color: var(--top_menu-v3);
 }
 
 .l-top_menu-v2 .submenu>a:hover {
-    background: var(--top_menu);
-    color: #123;
+	background: var(--top_menu);
+	color: #123;
 }
 
 .l-top_menu-v2 .menu-dropdown>span a:active {
-    background-color: var(--top_menu-v3);
+	background-color: var(--top_menu-v3);
 }
 
 .l-top_menu-v2 .menu-dropdown>span a:hover {
-    background-color: #58768f;
+	background-color: #58768f;
 }
   
 .l-top_menu-v2 .menu-icon:hover {
-    background-color: #567fa2;
+	background-color: #567fa2;
 }
 
 .l-top_menu-v2.is-search-mobile .global-search {
-    background: var(--top_menu);
+	background: var(--top_menu);
 }
 
 /* Описания страниц */
 
 @media screen and (min-width: 768px) {
 .cc-link >.c-column:first-child {
-    width: 20%;
+	width: 20%;
 }
 
 .cc-link >.c-column:last-child:not(:first-child) {
-    width: 76%;
+	width: 76%;
 }
 }
 
@@ -114,7 +116,7 @@ body {
 /* Скрытие раздела топиков */
 
 .p-clubs-show > .l-page > div > .menu-slide-outer > .menu-slide-inner > .l-content > div:nth-child(4) {
-    display: none;
+	display: none;
 }
 
 /*отображение старых топиков*/
@@ -132,16 +134,16 @@ body {
 /*блок комментов старых топиков*/
 
 .b-topic[id="321321"] .editor-container input[type="submit"] {
- display: none; 
+	display: none; 
 }
 
 .b-topic[id="321097"] .editor-container input[type="submit"] {
- display: none; 
+	display: none; 
 }
 
 /*oshibki*/
 .b-feedback {
-visibility: hidden;
+	visibility: hidden;
 }
 
 /* для тех, кто без стилей */
@@ -152,9 +154,9 @@ visibility: hidden;
 /* кнопки в угадайке */
 
 .n-pages {
-    margin-right: 2px;
+	margin-right: 2px;
 	margin-bottom: 2px;
 	padding: 2px 15px 2px 16px;
-  	color: black;
-  	background-color: var(--headline);
+	color: var(--invert_main);
+	background-color: var(--headline);
 }
