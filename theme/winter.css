@@ -1,0 +1,14 @@
+/* зима */
+body:before {
+  content: " ";
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: fixed;
+  background: url(https://media.giphy.com/media/26BRyql7J3iOx875u/giphy.gif) fixed;
+  background-size: 300px;
+}
+
+body { 
+  background-image: url(https://i.imgur.com/nPT62gD.png); 
+}
