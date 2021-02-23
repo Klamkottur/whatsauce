@@ -317,3 +317,69 @@ body {
 	transform:translate3d(-50%, -50%, 0) scale(2.5)
 }
 }
+
+/* Админы */
+
+.b-clubs-menu .admin .b-user {
+	clear: both;
+	display: block;
+	float: none;
+	width: auto;
+	padding: 0;
+	margin: 0 !important;
+	border-radius: 4px;
+}
+
+.b-clubs-menu .admin .b-user:last-child {
+	margin: 0 0 15px !important;
+}
+
+.b-clubs-menu .admin .b-user:hover {
+	background: rgba(221, 221, 221, .5);
+}
+
+.b-clubs-menu .admin .b-user .avatar {
+	float: left;
+	width: auto;
+	margin: 0 !important;
+	padding: 8px 15px 8px 8px;
+}
+
+.b-clubs-menu .admin .b-user .avatar img {
+	width: 40px;
+}
+
+.b-clubs-menu .admin .b-user .name {
+	display: block;
+	max-width: 100%;
+	padding: 8px 0;
+	color: #444;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.b-clubs-menu .admin .b-user .name::after {
+	content: '?';
+	display: block;
+	color: gray;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.35;
+}
+
+.b-clubs-menu .admin .b-user:hover .name, .b-clubs-menu .admin .b-user .name:hover {
+	text-decoration: none;
+}
+
+.b-clubs-menu .admin .b-user[id='626523'] .name::after {
+	content: 'Мангуст';
+}
+
+.b-clubs-menu .admin .b-user[id='583040'] .name::after {
+	content: 'Кот';
+}
+
+.b-clubs-menu .admin .b-user[id='716850'] .name::after {
+	content: 'Парень-никто';
+}
