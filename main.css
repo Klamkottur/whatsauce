@@ -160,3 +160,11 @@ body {
 	color: var(--invert_main);
 	background-color: var(--headline);
 }
+
+/* newsblock */
+
+.b-quote.newsblock {
+	background: var(--newsblock);
+	border: 1px silver solid;
+	font-style: normal;
+}
