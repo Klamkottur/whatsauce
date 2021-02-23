@@ -1,0 +1,28 @@
+/* комбинация */
+.n-meowtom {
+  width: 9.1%;
+  padding-bottom: 9.1%;
+  display: inline-block;
+  margin-right: 1%;
+  background: url(https://i.imgur.com/0HdbFai.png) no-repeat;
+  background-size: 100%;
+}
+
+.n-meowtom.com-10 {
+  margin-right: 0%;
+}
+
+.n-meowtom.active {
+  background-image: url(https://i.imgur.com/2Yc12lq.png);
+}
+
+.com-1:not(.active) + .com-2:not(.active) + .com-3.active + .com-4.active + .com-5.active + .com-6:not(.active) + .com-7.active + .com-8:not(.active) + .com-9:not(.active) + .com-10.active + .combi-result-pre::after {
+  display: block;
+  clear: both;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 4px;
+  padding: 2px;
+  white-space: pre;
+  content: "Кошкодевочки довольны.";
+}
