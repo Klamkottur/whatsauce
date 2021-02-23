@@ -168,3 +168,152 @@ body {
 	border: 1px silver solid;
 	font-style: normal;
 }
+
+/* u-tabs */
+@media (min-width: 960px){
+.vertical-tab .u-tabs.--vertical {
+	display:flex;
+	border: none;
+	border-radius: 3px;
+}
+
+.vertical-tab .u-tabs.--vertical>div:not([data-tab]) {
+	flex-direction:column;
+	flex-shrink:0;
+	width:200px;
+	text-align: right;
+}
+
+.vertical-tab .u-tabs.--vertical [data-tab-switch] {
+	padding:8px 16px;
+	margin:0;
+	border:0;
+	border-radius:0;
+	text-align:right;
+}
+
+.vertical-tab .u-tabs.--vertical [data-tab] {
+	flex-grow:1;
+	padding: 9px 12px;
+	border: 1px silver solid;
+	background: var(--newsblock);
+}
+
+.vertical-tab .u-tabs [data-tab-switch]:hover {
+	border-bottom: none !important;
+	border-right: 6px var(--main_title) solid;
+}
+
+.vertical-tab .u-tabs [data-tab-switch]:active {
+	background: var(--top_menu);
+	border-color: var(--main_title);
+	border-bottom: none !important;
+	border-right: 6px var(--main_title) solid;
+}
+
+.vertical-tab .u-tabs [data-tab-switch].active {
+	background: var(--headline);
+	border-bottom: none !important;
+	border-right: 6px var(--main_title) solid;
+}
+  
+.vertical-tab .u-tabs [data-tab-switch]:nth-child(3) {
+	margin-bottom: 20px;
+}
+}
+
+.vertical-tab .u-tabs>div:not([data-tab]) {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	overflow-y:auto
+}
+
+.vertical-tab .u-tabs [data-tab-switch] {
+	display:block;
+	flex-shrink:0;
+	min-width:148px;
+	padding:4px 14px;
+	margin:8px;
+	border-bottom:2px solid var(--top_menu);
+	color: var(--invert_main);
+	font-weight:bold;
+	line-height:24px;
+	text-align:center;
+	cursor:pointer;
+	transition:.24s ease;
+	user-select:none;
+}
+
+.vertical-tab .u-tabs.--ripple [data-tab-switch] {
+	position:relative;
+	overflow:hidden;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	background: none;
+}
+
+.vertical-tab .u-tabs [data-tab-switch]:hover {
+	background: var(--tab_hover);
+	border-bottom: 4px var(--main_title) solid;
+}
+
+.vertical-tab .u-tabs [data-tab-switch]:active {
+	background: var(--headline);
+	border-bottom: 4px var(--main_title) solid;
+}
+
+.vertical-tab .u-tabs [data-tab-switch].active {
+	background: var(--headline);
+	color: var(--invert_main);
+	cursor:default;
+	border-bottom: 4px var(--main_title) solid;
+}
+
+.vertical-tab .u-tabs [data-tab] {
+	padding:12px 8px;
+}
+
+.vertical-tab .u-tabs.--ripple [data-tab-switch]::after {
+	content:'';
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:72%;
+	padding-top:72%;
+	background:inherit;
+	border-radius:50%;
+	opacity:0;
+	transform:translate3d(-50%, -50%, 0);
+	pointer-events:none
+}
+
+.vertical-tab .u-tabs.--ripple [data-tab-switch]:not(.active):hover::after {
+	animation:1s switch-focus--vertical ease infinite
+}
+
+.vertical-tab .u-tabs.--ripple [data-tab-switch].active::after {
+	animation:switch-tap--vertical 0.24s cubic-bezier(0.55, 0.06, 0.68, 0.19)
+}
+
+@keyframes switch-focus--vertical{
+0%,100% {
+	opacity:.8;
+	transform:translate3d(-50%, -50%, 0)
+}
+
+50% {
+	opacity:.8;
+	transform:translate3d(-50%, -50%, 0) scale(0.95)
+}
+}
+
+@keyframes switch-tap--vertical{
+0%{
+	opacity:.8
+}
+
+100%{
+	opacity:0;
+	transform:translate3d(-50%, -50%, 0) scale(2.5)
+}
+}
