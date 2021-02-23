@@ -383,3 +383,10 @@ body {
 .b-clubs-menu .admin .b-user[id='716850'] .name::after {
 	content: 'Парень-никто';
 }
+
+/* архив картиночек */
+.line .b-tag:hover {
+	color: #d35e00;
+	text-shadow: crimson 0 0 1px;
+	cursor: pointer;
+}
