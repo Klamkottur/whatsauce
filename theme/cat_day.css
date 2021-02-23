@@ -1,0 +1,16 @@
+/* День кошек */
+
+body { 
+  background: url(https://i.imgur.com/KQALucg.jpg); 
+  background-size: 40%;
+}
+
+.l-top_menu-v2 {
+  background: url(https://i.imgur.com/tlLCJHC.png) repeat-x;
+  background-size: contain;
+}
+
+.l-top_menu-v2 .logo-container .logo, .l-top_menu-v2 .logo-container .glyph,
+.l-top_menu-v2 .menu-icon.search:before, .l-top_menu-v2 .menu-icon.contest:before, .l-top_menu-v2 .menu-icon.forum:before {
+  filter: drop-shadow(2px 4px 6px var(--main_title));
+}
