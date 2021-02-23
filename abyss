@@ -3,46 +3,46 @@
 .d-a {}
 
 .abyss-cont {
-  	display: block !important;
+	display: block !important;
 	width: calc(100% - 80px);
-  	margin-left: 40px;
-  	position: relative;
+	margin-left: 40px;
+	position: relative;
 }
 
 .a-line-1 {
 	background: url(https://i.imgur.com/S2Oaf4Q.png);
-    background-size: cover;
+	background-size: cover;
 	background-position: bottom left;
-    padding-bottom: 15%;
-    font-size: 0px;
-    width: calc( 1% * var(--abyss-calc));
-    position: absolute;
-  	border-right: 4px crimson dashed;
+	padding-bottom: 15%;
+	font-size: 0px;
+	width: calc( 1% * var(--abyss-calc));
+	position: absolute;
+	border-right: 4px crimson dashed;
 }
 
 .a-line-2 {
 	background: url(https://i.imgur.com/i3t06y5.png);
-    background-size: cover;
-  	background-position: bottom left;
-    padding-bottom: 15%;
-  	-webkit-box-shadow: 2px 2px 5px 1px rgb(var(--abyss-calc), 0, 0); 
+	background-size: cover;
+	background-position: bottom left;
+	padding-bottom: 15%;
+	-webkit-box-shadow: 2px 2px 5px 1px rgb(var(--abyss-calc), 0, 0); 
 	box-shadow: 2px 2px 5px 1px rgb(var(--abyss-calc), 0, 0); 
 }
 
 .a-count {
-    margin-left: calc( 1% * var(--abyss-calc));
-    width: 35px;
-    height: 35px;
-    font-size: 18px;
-    border: 4px crimson solid;
-    border-radius: 50% 50% 50% 0;
-    text-align: center;
-    line-height: 27px;
+	margin-left: calc( 1% * var(--abyss-calc));
+	width: 35px;
+	height: 35px;
+	font-size: 18px;
+	border: 4px crimson solid;
+	border-radius: 50% 50% 50% 0;
+	text-align: center;
+	line-height: 27px;
 }
 
 .a-count:after {
 	content: var(--abyss-count)'q';
-  	display: block;
+	display: block;
 }
 
 .abyss-name {
