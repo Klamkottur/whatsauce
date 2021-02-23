@@ -1,5 +1,7 @@
 /* Опросы - полоски процентов, магия и т.д. */
 
+.d-t {}
+
 .b-poll .poll-variants .poll-variant.result {
 	overflow: hidden;
 	display: flex;
