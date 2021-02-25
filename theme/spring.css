@@ -1,0 +1,14 @@
+body {
+	background-image: url(https://i.imgur.com/JyLaosp.png);
+  	background-position: top;
+}
+
+.l-top_menu-v2 {
+    background: url(https://i.imgur.com/k081lPT.png) no-repeat var(--top_menu);
+    background-size: 120px;
+    background-position-y: -10px;
+}
+
+.l-top_menu-v2 .logo-container .logo, .l-top_menu-v2 .logo-container .glyph {
+   filter: drop-shadow(0px 0px 1px black);
+}
