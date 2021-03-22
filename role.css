@@ -21,7 +21,7 @@
 
 /* Кодзима, подсказка */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name:hover:after {
-	content: "Порнокошка ー Знаток №1";
+	content: "Порнокошка\0a\0aАдмин клуба ー Знаток №1";
 }
 
 /* Рикки-Тикки-Тави, подсказка */
@@ -115,6 +115,7 @@
 
 
 /* Ники админов */
+.b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name,
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name,
 .b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name
 {
