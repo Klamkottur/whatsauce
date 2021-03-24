@@ -113,6 +113,13 @@
 	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
 }
 
+/* Dr.GK 558352 */
+
+.b-comment[data-user_id="558352"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Мастер кисок";
+}
+
 
 /* Ники админов */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name,
