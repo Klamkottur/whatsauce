@@ -30,18 +30,24 @@
 }
 
 /* Хорнизавр */
-
 .b-comment[data-user_id="368465"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны";
 }
+.b-comment[data-user_id="368465"] header a.name, .b-user[id="368465"] a.name
+{
+	color: #d000be !important; 
+}
 
 
 /* Иероглиф-тян */
-
 .b-comment[data-user_id="464837"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Главная извращенка шики, цундере, злобная староста\0a\0aЗнаток №2 ー Авантюрист 9 ранга: Обсидиановый";
+}
+.b-comment[data-user_id="464837"] header a.name, .b-user[id="464837"] a.name
+{
+	color: #777 !important; 
 }
 
 
@@ -63,6 +69,10 @@
 .b-comment[data-user_id="81056"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Лоли-трап\0a\0aАвантюрист 8 ранга: Стальной)";
+}
+.b-comment[data-user_id="81056"] header a.name, .b-user[id="81056"] a.name
+{
+	color: #9400D3 !important; 
 }
 
 /* Хомяк */
@@ -120,6 +130,12 @@
 	content: "Мастер кисок";
 }
 
+/* Daria Aki 78160 */
+
+.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Кусезависимая";
+}
 
 /* Ники админов */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name,
@@ -127,24 +143,6 @@
 .b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name
 {
 	color: crimson !important; 
-}
-
-/* Ник извращенки */
-.b-comment[data-user_id="464837"] header a.name, .b-user[id="464837"] a.name
-{
-	color: #777 !important; 
-}
-
-/* Ник хорнизавра */
-.b-comment[data-user_id="368465"] header a.name, .b-user[id="368465"] a.name
-{
-	color: #d000be !important; 
-}
-
-/* Ник лолитрапа */
-.b-comment[data-user_id="81056"] header a.name, .b-user[id="81056"] a.name
-{
-	color: #9400D3 !important; 
 }
 
 /* Ники авантюристов */
