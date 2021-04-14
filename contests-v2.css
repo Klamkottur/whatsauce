@@ -1,0 +1,255 @@
+/* Опросы - полоски процентов, магия и т.д. */
+
+.d-t {}
+
+.b-poll .poll-variants .poll-variant.result {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    padding: 4px 0px;
+    margin-bottom: 10px;
+}
+
+.b-poll .poll-variants .poll-variant.result .votes-total {
+	color: #556;
+	margin-left: 0px;
+	z-index: 1;
+	order: 3;
+}
+
+
+.b-poll .poll-variants .poll-variant.result .votes-total::before {
+	content: '・';
+	color: #555;
+}
+
+.b-poll .poll-variants .poll-variant.result .votes-percent {
+	color: #556;
+	margin-right: 4px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+}
+
+.b-poll .poll-variants .poll-variant label {
+	z-index: 10;
+	max-width: 70%;
+	margin-left: 10px;
+}
+
+.b-poll .bar.horizontal {
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+}
+
+/* Для Рики: неактивная полоска процентов */
+
+.b-poll .poll-variants .poll-variant.result .bar .line {
+	padding: 0;
+	background: #cff2ff;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+/* Для Рики: активная полоска процентов */
+
+.bar.simple .bar.s3 { background: #91c5ed;}
+.bar.simple .bar:hover.s3 { background: #919191;}
+.bar.simple .bar.s2 { background: #91c5ed;}
+.bar.simple .bar:hover.s2 { background: #7F7F7F;}
+.bar.simple .bar.s1 { background: #91c5ed;}
+.bar.simple .bar:hover.s1 { background: #565656;}
+.bar.simple .bar.s0 { background: #91c5ed;}
+.bar.simple .bar:hover.s0 { background: #444444;}
+
+.b-poll .poll-variants .poll-variant.result .bar .bar {
+	height: 100%;
+	z-index: 0;
+}
+
+/* Для Рики: ховер полоски процентов */
+
+.b-poll .poll-variants .poll-variant.result:hover .bar {
+	background: #98c2e3;
+}
+
+/* Опросы - чиним центровку */
+
+.poll-variants {
+	text-align: left;
+}
+
+/* Опросы - размеры */
+
+.b-poll {
+	width: 100%;
+	max-width: 630px;
+
+}
+
+.b-poll .text {
+	clear: both;
+}
+
+.b-poll .poll {
+	text-align: left;
+  	padding: 10px 10px;
+	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.40);
+  	background-color: #FAFAFF;
+	background-image: url(https://i.imgur.com/Ub5q41g.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.b-poll .poll-variants {
+	text-align: left;
+  	padding: 10px 10px;
+	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.40);
+  	background-color: #FAFAFF;
+	margin: auto;
+	margin-bottom: 0;
+}
+
+.b-poll:last-child {
+	margin-bottom: 2px;
+}
+
+/* Пикча на фоне */
+
+/* Для Рики: Фон всего опроса */
+
+.b-poll .poll .name {
+	font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: block;
+    vertical-align: top;
+	margin-bottom: 10px;
+}
+
+/* Опросы - голосование */
+
+.b-poll .poll-variants .poll-variant.pending {
+	padding: 5px;
+	padding-left: 10px;
+	background: #cff2ff;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+.b-poll .poll-variants .poll-variant.pending .b-radio {
+	margin: 0;
+}
+
+.b-poll .b-radio input[type="radio"] + .radio-label::before {
+	background: #FFF;
+}
+
+.b-poll .poll-actions .abstain, .b-poll .poll-actions .vote {
+	margin-bottom: 10px;
+}
+
+.b-poll .poll-actions {
+	text-align: center;
+}
+
+.b-poll img {
+	max-width: 100%;
+}
+
+/* Галочка ответа */
+
+.b-poll .poll-variants .poll-variant.result label .voted-for:before, .b-poll .poll-variants .poll-variant.result label .voted-for:after {
+	content: none;
+}
+
+.b-poll .poll-variants .poll-variant.result label .voted-for {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #4c75a3;
+	border-radius: 50%;
+	border: 1px #A6BAD1 dashed;
+	color: white;
+	text-align: center;
+	padding: 0;
+	right: 50px;
+	top: 5px;
+}
+
+.b-poll .poll-variants .poll-variant.result:last-child:after {
+	content: '';
+}
+
+/* Статистика опросов */
+
+.polls-stat .c-column:nth-child(3n + 1) {
+	width: 20px;
+  	margin-right: 2%;
+}
+
+.polls-stat .c-column:nth-child(3n) {
+	width: 50px;
+	padding-left: 2%;
+  	text-align: center;
+}
+
+.polls-stat .c-column:nth-child(3n + 2) {
+	width: calc(92% - 70px);
+  	margin-right: 2%;
+	padding-left: 2%;
+  	border-left: 1px silver solid;
+  	border-right: 1px silver solid;
+}
+
+.polls-stat {
+	border-bottom: 1px silver solid;
+}
+
+.polls-stat .c-column {
+	margin-bottom: 0;
+}
+
+/* Скрыть размеры картинки в опросах */
+
+.b-poll > .poll > .text > a > .marker {
+	display: none;
+}
+
+
+.see-our-club-with-styles-pls {
+	display: none;
+}
+
+body[data-user*='"id":583040'] .admin-info {
+	display: inline-block !important;
+}
+
+.b-comment[data-user_id="583040"] .really-big-font {
+	font-size: 50px !important;
+}
+
+.b-poll .poll::before {
+	display: inline-block;
+  	content: '';
+  	background: url(https://moe.shikimori.one/system/clubs/main/3002.png);
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    float: left;
+  	box-shadow: 0px 0px 3px 1px rgba(23, 96, 147, 0.50);
+    margin-right: 10px;
+}
