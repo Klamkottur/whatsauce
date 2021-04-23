@@ -98,7 +98,7 @@
 }
 
 .b-poll .poll {
-	text-align: left;
+	text-align: center;
   	padding: 10px 10px;
 	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.40);
   	background-color: #FAFAFF;
