@@ -93,12 +93,8 @@
 
 }
 
-.b-poll .text {
-	clear: both;
-}
-
 .b-poll .poll {
-	text-align: center;
+	text-align: left;
   	padding: 10px 10px;
 	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.40);
   	background-color: #FAFAFF;
@@ -106,6 +102,11 @@
 	background-position: top center;
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+
+.b-poll .text {
+	clear: both;
+	text-align: center;
 }
 
 .b-poll .poll-variants {
