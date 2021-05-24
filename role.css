@@ -137,10 +137,18 @@
 	content: "Кусезависимая";
 }
 
+/* SeppuKun 844199 */
+
+.b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Камикадзе";
+}
+
 /* Ники админов */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name,
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name,
-.b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name
+.b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name,
+.b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name
 {
 	color: crimson !important; 
 }
