@@ -384,6 +384,10 @@ body {
 	content: 'Парень-никто';
 }
 
+.b-clubs-menu .admin .b-user[id='844199'] .name::after {
+	content: 'Камикадзе';
+}
+
 /* архив картиночек */
 .line .b-tag:hover {
 	color: #d35e00;
