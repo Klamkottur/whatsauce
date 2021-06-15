@@ -138,10 +138,9 @@
 }
 
 /* SeppuKun 844199 */
-
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Камикадзе";
+	content: "Камикадзе\0a\0aАдмин клуба";
 }
 
 /* Ники админов */
