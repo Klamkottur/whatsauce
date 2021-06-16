@@ -19,128 +19,159 @@
 	text-align: left;
 }
 
-/* Кодзима, подсказка */
+/* Админы 
+-- Klamkottur 583040
+-- _Rikki_ 626523
+-- _Eve-Lover_ 716850
+-- SeppuKun 844199
+*/
+
+/* Klamkottur 583040 */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name:hover:after {
 	content: "Порнокошка\0a\0aАдмин клуба ー Знаток №1";
 }
+.b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name, .b-user16>img[src*="583040.png"]+span {
+    color: crimson;
+}
 
-/* Рикки-Тикки-Тави, подсказка */
+/* _Rikki_ 626523 */
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name:hover:after {
 	content: "Наизлобнейший сёта-мангуст\0a\0aАдмин клуба";
 }
-
-/* Хорнизавр */
-.b-comment[data-user_id="368465"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны";
-}
-.b-comment[data-user_id="368465"] header a.name, .b-user[id="368465"] a.name
-{
-	color: #d000be !important; 
+.b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name, .b-user16>img[src*="626523.png"]+span {
+    color: crimson;
 }
 
-
-/* Иероглиф-тян */
-.b-comment[data-user_id="464837"]:not(.tooltipped) header a.name:hover:after 
+/* _Eve-Lover_ 716850 */
+.b-comment[data-user_id="716850"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Главная извращенка шики, цундере, злобная староста\0a\0aЗнаток №2 ー Авантюрист 9 ранга: Обсидиановый";
+	content: "Парень-никто\0a\0aАдмин клуба";
 }
-.b-comment[data-user_id="464837"] header a.name, .b-user[id="464837"] a.name
-{
-	color: #777 !important; 
-}
-
-
-/*fullmetal*/
-.b-comment[data-user_id="126157"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Авантюрист 8 ранга: Стальной";
-}
-
-
-
-/* tikhoplet */
-.b-comment[data-user_id="323591"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Авантюрист №2 (Ранг 7: Сапфировый)";
-}
-
-/* Лолитрап */
-.b-comment[data-user_id="81056"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Лоли-трап\0a\0aАвантюрист 8 ранга: Стальной)";
-}
-.b-comment[data-user_id="81056"] header a.name, .b-user[id="81056"] a.name
-{
-	color: #9400D3 !important; 
-}
-
-/* Хомяк */
-.b-comment[data-user_id="277054"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Хомяк.\0a\0aАвантюрист №3 (Ранг 7: Сапфировый)";
-}
-
-/* Daisuke Kanbe 753419 */
-
-.b-comment[data-user_id="753419"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Авантюрист 9 ранга: Обсидиановый";
-}
-
-/* kvaxion 163912 */
-
-.b-comment[data-user_id="163912"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Жена Pixl\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны";
-}
-
-/* Leyka 429284 */
-
-.b-comment[data-user_id="429284"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Авантюрист 10 ранга: Фарфоровый";
-}
-
-/* Pixl 213997 */
-
-.b-comment[data-user_id="213997"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Григорий на льду, муж kvaxion\0a\0aАвантюрист 10 ранга: Фарфоровый";
-}
-
-/* MaDDanieL 563020 */
-
-.b-comment[data-user_id="563020"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Глава культа Аксис, ворвавшийся в топ с ноги\0a\0aАвантюрист 10 ранга: Фарфоровый";
-}
-
-/* World_Houp 34807 */
-
-.b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
-}
-
-/* Dr.GK 558352 */
-
-.b-comment[data-user_id="558352"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Мастер кисок";
-}
-
-/* Daria Aki 78160 */
-
-.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Кусезависимая";
+.b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name, .b-user16>img[src*="716850.png"]+span {
+    color: crimson;
 }
 
 /* SeppuKun 844199 */
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Камикадзе\0a\0aАдмин клуба";
+}
+.b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
+    color: crimson;
+}
+
+/* Личный цвет 
+-- Хорнизавр 368465
+-- Иероглиф-тян 464837
+-- Лолитрап 81056
+-- Аква-сама 451492
+*/
+
+/* Хорнизавр 368465 */
+.b-comment[data-user_id="368465"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны";
+}
+.b-comment[data-user_id="368465"]:not(.tooltipped) header a.name, .b-user[id="368465"] a.name, .b-user16>img[src*="368465.png"]+span
+{
+	color: #d000be !important; 
+}
+
+/* Иероглиф-тян 464837 */
+.b-comment[data-user_id="464837"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Главная извращенка шики, цундере, злобная староста\0a\0aЗнаток №2 ー Авантюрист 9 ранга: Обсидиановый";
+}
+.b-comment[data-user_id="464837"]:not(.tooltipped) header a.name, .b-user[id="464837"] a.name, .b-user16>img[src*="464837.png"]+span
+{
+	color: #777 !important; 
+}
+
+/* Лолитрап 81056 */
+.b-comment[data-user_id="81056"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Лоли-трап\0a\0aАвантюрист 8 ранга: Стальной)";
+}
+.b-comment[data-user_id="81056"]:not(.tooltipped) header a.name, .b-user[id="81056"] a.name, .b-user16>img[src*="81056.png"]+span
+{
+	color: #9400D3 !important; 
+}
+
+/* Аква-сама 451492 */
+.b-comment[data-user_id="451492"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Богиня воды";
+}
+.b-comment[data-user_id="451492"]:not(.tooltipped) header a.name, .b-user[id="451492"] a.name, .b-user16>img[src*="451492.png"]+span {
+    color: blue;
+}
+
+
+
+/*fullmetal 126157*/
+.b-comment[data-user_id="126157"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 8 ранга: Стальной";
+}
+
+/* tikhoplet 323591 */
+.b-comment[data-user_id="323591"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист №2 (Ранг 7: Сапфировый)";
+}
+
+/* Хомяк 277054 */
+.b-comment[data-user_id="277054"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Хомяк.\0a\0aАвантюрист №3 (Ранг 7: Сапфировый)";
+}
+
+/* Daisuke Kanbe 753419 */
+.b-comment[data-user_id="753419"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 9 ранга: Обсидиановый";
+}
+
+/* kvaxion 163912 */
+.b-comment[data-user_id="163912"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Жена Pixl\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны";
+}
+
+/* Leyka 429284 */
+.b-comment[data-user_id="429284"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
+
+/* Pixl 213997 */
+.b-comment[data-user_id="213997"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Григорий на льду, муж kvaxion\0a\0aАвантюрист 10 ранга: Фарфоровый";
+}
+
+/* MaDDanieL 563020 */
+.b-comment[data-user_id="563020"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Глава культа Аксис, ворвавшийся в топ с ноги\0a\0aАвантюрист 10 ранга: Фарфоровый";
+}
+
+/* World_Houp 34807 */
+.b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
+}
+
+/* Dr.GK 558352 */
+.b-comment[data-user_id="558352"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Мастер кисок";
+}
+
+/* Daria Aki 78160 */
+.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Кусезависимая";
 }
 
 /* Ники админов */
