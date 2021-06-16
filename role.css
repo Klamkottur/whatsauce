@@ -31,7 +31,7 @@
 	content: "Порнокошка\0a\0aАдмин клуба ー Знаток №1";
 }
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name, .b-user16>img[src*="583040.png"]+span {
-    color: crimson;
+    color: crimson !important;
 }
 
 /* _Rikki_ 626523 */
@@ -39,7 +39,7 @@
 	content: "Наизлобнейший сёта-мангуст\0a\0aАдмин клуба";
 }
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name, .b-user16>img[src*="626523.png"]+span {
-    color: crimson;
+    color: crimson !important;
 }
 
 /* _Eve-Lover_ 716850 */
@@ -48,7 +48,7 @@
 	content: "Парень-никто\0a\0aАдмин клуба";
 }
 .b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name, .b-user16>img[src*="716850.png"]+span {
-    color: crimson;
+    color: crimson !important;
 }
 
 /* SeppuKun 844199 */
@@ -57,7 +57,7 @@
 	content: "Камикадзе\0a\0aАдмин клуба";
 }
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
-    color: crimson;
+    color: crimson !important;
 }
 
 /* Личный цвет 
