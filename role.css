@@ -101,6 +101,7 @@
 .b-comment[data-user_id="451492"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Богиня воды";
+	color: deepskyblue;
 }
 .b-comment[data-user_id="451492"]:not(.tooltipped) header a.name, .b-user[id="451492"] a.name, .b-user16>img[src*="451492.png"]+span {
     color: blue;
