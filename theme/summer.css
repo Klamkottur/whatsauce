@@ -1,0 +1,38 @@
+body {
+	background-image: url(https://i.imgur.com/J95xOLu.png);
+  	background-position: bottom;
+  	background-size: cover;
+}
+
+.l-top_menu-v2 {
+    background: url(https://i.imgur.com/z4Ix5wk.png) no-repeat var(--top_menu);
+    background-size: 60px;
+    background-position-y: -5px;
+	background-position-x: -6px;
+}
+/*
+.l-top_menu-v2 {
+    background: url(https://i.imgur.com/z4Ix5wk.png) no-repeat var(--top_menu);
+    background-size: 60px;
+    background-position-y: -5px;
+	background-position-x: -6px;
+}
+
+.l-top_menu-v2 {
+    background: url(https://i.imgur.com/z4Ix5wk.png) no-repeat var(--top_menu);
+    background-size: 100px;
+    background-position-y: -38px;
+	background-position-x: -38px;
+}
+
+.l-top_menu-v2 {
+    background: url(hhttps://i.imgur.com/z4Ix5wk.png) no-repeat var(--top_menu);
+    background-size: 75px;
+    background-position-y: -15px;
+	background-position-x: -12px;
+}
+*/
+
+.l-top_menu-v2 .logo-container .logo, .l-top_menu-v2 .logo-container .glyph {
+   filter: drop-shadow(0px 0px 1px black);
+}
