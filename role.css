@@ -106,18 +106,29 @@
     color: blue;
 }
 
+/* Топ-3 Авантюристы без личного цвета 
+-- tikhoplet 323591
+-- fullmetal 126157
+-- Хомяк 277054
+-- World_Houp 34807
+*/
 
+/* tikhoplet 323591 */
+.b-comment[data-user_id="323591"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист №2 (Ранг 7: Сапфировый)";
+}
+.b-comment[data-user_id="323591"]:not(.tooltipped) header a.name, .b-user[id="323591"] a.name, .b-user16>img[src*="323591.png"]+span {
+    color: #00aa11;
+}
 
 /*fullmetal 126157*/
 .b-comment[data-user_id="126157"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Авантюрист 8 ранга: Стальной";
 }
-
-/* tikhoplet 323591 */
-.b-comment[data-user_id="323591"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Авантюрист №2 (Ранг 7: Сапфировый)";
+.b-comment[data-user_id="126157"]:not(.tooltipped) header a.name, .b-user[id="126157"] a.name, .b-user16>img[src*="126157.png"]+span {
+    color: #00aa11;
 }
 
 /* Хомяк 277054 */
@@ -125,6 +136,28 @@
 {
 	content: "Хомяк.\0a\0aАвантюрист №3 (Ранг 7: Сапфировый)";
 }
+.b-comment[data-user_id="277054"]:not(.tooltipped) header a.name, .b-user[id="277054"] a.name, .b-user16>img[src*="277054.png"]+span {
+    color: #00aa11;
+}
+
+/* World_Houp 34807 */
+.b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
+}
+.b-comment[data-user_id="34807"]:not(.tooltipped) header a.name, .b-user[id="34807"] a.name, .b-user16>img[src*="34807.png"]+span {
+    color: #00aa11;
+}
+
+/* Без цвета
+-- Daisuke Kanbe 753419
+-- kvaxion 163912 
+-- Leyka 429284
+-- Pixl 213997
+-- MaDDanieL 563020
+-- Dr.GK 558352
+-- Daria Aki 78160
+*/
 
 /* Daisuke Kanbe 753419 */
 .b-comment[data-user_id="753419"]:not(.tooltipped) header a.name:hover:after 
@@ -156,12 +189,6 @@
 	content: "Глава культа Аксис, ворвавшийся в топ с ноги\0a\0aАвантюрист 10 ранга: Фарфоровый";
 }
 
-/* World_Houp 34807 */
-.b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
-}
-
 /* Dr.GK 558352 */
 .b-comment[data-user_id="558352"]:not(.tooltipped) header a.name:hover:after 
 {
@@ -172,22 +199,4 @@
 .b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Кусезависимая";
-}
-
-/* Ники админов */
-.b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name,
-.b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name,
-.b-comment[data-user_id="716850"]:not(.tooltipped) header a.name, .b-user[id="716850"] a.name,
-.b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name
-{
-	color: crimson !important; 
-}
-
-/* Ники авантюристов */
-.b-comment[data-user_id="323591"] header a.name, .b-user[id="323591"] a.name,
-.b-comment[data-user_id="126157"] header a.name, .b-user[id="126157"] a.name,
-.b-comment[data-user_id="277054"] header a.name, .b-user[id="277054"] a.name,
-.b-comment[data-user_id="34807"] header a.name, .b-user[id="34807"] a.name
-{
-	color: #00aa11 !important; 
 }
