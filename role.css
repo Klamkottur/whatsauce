@@ -91,7 +91,7 @@
 /* Лолитрап 81056 */
 .b-comment[data-user_id="81056"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Лоли-трап\0a\0aАвантюрист 8 ранга: Стальной)";
+	content: "Лоли-трап\0a\0aАвантюрист 8 ранга: Стальной";
 }
 .b-comment[data-user_id="81056"]:not(.tooltipped) header a.name, .b-user[id="81056"] a.name, .b-user16>img[src*="81056.png"]+span
 {
