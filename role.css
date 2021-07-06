@@ -111,7 +111,7 @@
 /* kvaxion 163912 */
 .b-comment[data-user_id="163912"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Жена Pixl\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны";
+	content: "Квас\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны";
 }
 .b-comment[data-user_id="163912"]:not(.tooltipped) header a.name, .b-user[id="163912"] a.name, .b-user16>img[src*="163912.png"]+span {
     color: #630003;
@@ -184,7 +184,7 @@
 /* Pixl 213997 */
 .b-comment[data-user_id="213997"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Григорий на льду, муж kvaxion\0a\0aАвантюрист 10 ранга: Фарфоровый";
+	content: "Григорий на льду\0a\0aАвантюрист 10 ранга: Фарфоровый";
 }
 
 /* MaDDanieL 563020 */
