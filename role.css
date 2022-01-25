@@ -23,7 +23,6 @@
 -- Klamkottur 583040
 -- _Rikki_ 626523
 -- _Eve-Lover_ 716850
--- SeppuKun 844199
 */
 
 /* Klamkottur 583040 */
@@ -51,13 +50,17 @@
     color: crimson !important;
 }
 
+/* Бывший админ
+-- SeppuKun 844199
+*/
+
 /* SeppuKun 844199 */
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Камикадзе\0a\0aАдмин клуба";
+	content: "Камикадзе\0a\0aБывший админ клуба";
 }
 .b-comment[data-user_id="844199"]:not(.tooltipped) header a.name, .b-user[id="844199"] a.name, .b-user16>img[src*="844199.png"]+span {
-    color: crimson !important;
+    color: #590818 !important;
 }
 
 /* Личный цвет 
