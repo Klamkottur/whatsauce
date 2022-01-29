@@ -69,6 +69,7 @@
 -- Лолитрап 81056
 -- Аква-сама 451492
 -- kvaxion 163912 
+-- Daria Aki 78160
 */
 
 /* Хорнизавр 368465 */
@@ -120,6 +121,15 @@
     color: #630003;
 }
 
+/* Daria Aki 78160 */
+.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Кусезависимая";
+}
+.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name, .b-user[id="78160"] a.name, .b-user16>img[src*="78160.png"]+span {
+    color: #00aa11;
+}
+
 /* Топ-3 Авантюристы без личного цвета 
 -- tikhoplet 323591
 -- fullmetal 126157
@@ -169,7 +179,6 @@
 -- Pixl 213997
 -- MaDDanieL 563020
 -- Dr.GK 558352
--- Daria Aki 78160
 */
 
 /* Daisuke Kanbe 753419 */
@@ -202,8 +211,4 @@
 	content: "Мастер кисок";
 }
 
-/* Daria Aki 78160 */
-.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
-{
-	content: "Кусезависимая";
-}
+
