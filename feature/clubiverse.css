@@ -1,0 +1,121 @@
+.b-clubs-menu .clubs .b-club, .b-clubs .b-club {
+    position: relative;
+    background: rgba(255, 255, 255, .5);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.b-clubs-menu .clubs .b-club::before, .b-clubs .b-club::before {
+    content: '';
+    display: block;
+    height: 96px;
+    background-size: cover;
+    border-radius: 4px 4px 0 0;
+    opacity: .8;
+}
+
+.b-club .name-logo::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    background-size: cover;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.b-club .logo {
+    display: none;
+}
+
+.b-club .name, .b-club .info {
+    padding: 16px;
+}
+
+.b-club .name {
+    margin: auto;
+    color: #444;
+    line-height: 20px;
+}
+
+.b-club .name-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.b-club .info {
+    margin-top: -32px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.b-clubs-menu .clubs .b-club:after, .b-clubs .b-club:after {
+    clear: left;
+    display: block;
+    content: ' ';
+}
+
+
+/* Виви */
+.b-clubs-menu .clubs .b-club[id='2950']::before,
+.b-clubs .b-club[id='2950']::before,
+.b-club.c-2950::before
+{
+    background-image: url(https://kawai.shikimori.one/system/images/original/124271.jpg);
+}
+.b-club[id='2950'] .name-logo::before, .b-club.c-2950 .name-logo::before  {
+    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/2950.png);
+}
+
+/* Соусы */
+.b-clubs-menu .clubs .b-club[id='3002']::before,
+.b-clubs .b-club[id='3002']::before,
+.b-club.c-3002::before
+{
+    background-image: url(https://desu.shikimori.one/system/images/original/124338.jpg);
+}
+.b-club[id='3002'] .name-logo::before, .b-club.c-3002 .name-logo::before {
+    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3002.png);
+}
+
+/* Хранилище Шики */
+.b-clubs-menu .clubs .b-club[id='3000']::before,
+.b-clubs .b-club[id='3000']::before,
+.b-club.c-3000::before
+{
+    background-image: url(https://kawai.shikimori.one/system/images/original/124341.jpg);
+}
+.b-club[id='3000'] .name-logo::before, .b-club.c-3000 .name-logo::before {
+    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3000.png);
+}
+
+/* Анархия */
+.b-clubs-menu .clubs .b-club[id='3182']::before,
+.b-clubs .b-club[id='3182']::before,
+.b-club.c-3182::before
+{
+    background-image: url(https://nyaa.shikimori.one/system/images/original/124340.jpg);
+}
+.b-club[id='3182'] .name-logo::before, .b-club.c-3182 .name-logo::before {
+    background-image: url(https://moe.shikimori.one/system/images/original/124342.png);
+}
+
+/* Культ Аксис */
+.b-clubs-menu .clubs .b-club[id='3055']::before,
+.b-clubs .b-club[id='3055']::before,
+.b-club.c-3055
+{
+    background-image: url(https://dere.shikimori.one/system/images/original/124339.jpg);
+}
+.b-club[id='3055'] .name-logo::before .b-club.c-3055 .name-logo::before {
+    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3055.png);
+}
