@@ -116,6 +116,6 @@
 {
     background-image: url(https://dere.shikimori.one/system/images/original/124339.jpg);
 }
-.b-club[id='3055'] .name-logo::before .b-club.c-3055 .name-logo::before {
+.b-club[id='3055'] .name-logo::before, .b-club.c-3055 .name-logo::before {
     background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3055.png);
 }
