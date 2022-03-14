@@ -19,7 +19,7 @@
     content: '';
     display: block;
     position: absolute;
-    top: 15px;
+    top: calc(25% - 32px);
     right: 0;
     left: 0;
     width: 64px;
