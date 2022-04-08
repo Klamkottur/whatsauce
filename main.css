@@ -40,7 +40,9 @@ body {
 .subheadline, .midheadline, .headline {
 	color: var(--headline-text);
   	background-color: var(--headline);
-  	border-color: var(--main_title);
+  	border: none;
+  	padding: 0px 10px 0px 12px;
+  	border-radius: 6px;
 }
 
 /* Кнопки */
