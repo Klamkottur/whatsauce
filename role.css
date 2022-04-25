@@ -27,7 +27,7 @@
 
 /* Klamkottur 583040 */
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name:hover:after {
-	content: "Порнокошка\0a\0aАдмин клуба ー Знаток №1";
+	content: "Хентайный кот\0a\0aАдмин клуба ー Знаток №1";
 }
 .b-comment[data-user_id="583040"]:not(.tooltipped) header a.name, .b-user[id="583040"] a.name, .b-user16>img[src*="583040.png"]+span {
     color: crimson !important;
@@ -35,7 +35,7 @@
 
 /* _Rikki_ 626523 */
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name:hover:after {
-	content: "Наизлобнейший сёта-мангуст\0a\0aАдмин клуба";
+	content: "Сёта-мангуст\0a\0aАдмин клуба";
 }
 .b-comment[data-user_id="626523"]:not(.tooltipped) header a.name, .b-user[id="626523"] a.name, .b-user16>img[src*="626523.png"]+span {
     color: crimson !important;
@@ -75,7 +75,7 @@
 /* Хорнизавр 368465 */
 .b-comment[data-user_id="368465"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны";
+	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны\0aВикторины: 🥉";
 }
 .b-comment[data-user_id="368465"]:not(.tooltipped) header a.name, .b-user[id="368465"] a.name, .b-user16>img[src*="368465.png"]+span
 {
@@ -115,7 +115,7 @@
 /* kvaxion 163912 */
 .b-comment[data-user_id="163912"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Квас\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны";
+	content: "Квас\0a\0aАвантюрист 9 ранга: Обсидиановый\0aВторой рыцарь бездны\0aВикторины: 🥈";
 }
 .b-comment[data-user_id="163912"]:not(.tooltipped) header a.name, .b-user[id="163912"] a.name, .b-user16>img[src*="163912.png"]+span {
     color: #630003;
@@ -124,7 +124,7 @@
 /* Daria Aki 78160 */
 .b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Кусезависимая";
+	content: "Кусезависимая\0aВикторины: 🥈";
 }
 .b-comment[data-user_id="78160"]:not(.tooltipped) header a.name, .b-user[id="78160"] a.name, .b-user16>img[src*="78160.png"]+span {
     color: #00aa11;
@@ -167,7 +167,7 @@
 /* World_Houp 34807 */
 .b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 6: Изумрудный)\0aПервый рыцарь бездны";
+	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 5: Рубиновый)\0aПервый рыцарь бездны\0aВикторины: 🥇🥇";
 }
 .b-comment[data-user_id="34807"]:not(.tooltipped) header a.name, .b-user[id="34807"] a.name, .b-user16>img[src*="34807.png"]+span {
     color: #00aa11;
