@@ -70,12 +70,13 @@
 -- Аква-сама 451492
 -- kvaxion 163912 
 -- Daria Aki 78160
+-- Innocent Black 512200
 */
 
 /* Хорнизавр 368465 */
 .b-comment[data-user_id="368465"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 8 ранга: Стальной\0aТретий рыцарь бездны\0aВикторины: 🥉";
+	content: "Хорнизавр-пропаданец\0a\0aЗнаток №2 ー Авантюрист 7 ранга: Сапфировый\0aТретий рыцарь бездны\0aВикторины: 🥉";
 }
 .b-comment[data-user_id="368465"]:not(.tooltipped) header a.name, .b-user[id="368465"] a.name, .b-user16>img[src*="368465.png"]+span
 {
@@ -124,7 +125,16 @@
 /* Daria Aki 78160 */
 .b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Кусезависимая\0aВикторины: 🥈";
+	content: "Кусезависимая\0a\0aАвантюрист 8 ранга: Стальной\0aВикторины: 🥈";
+}
+.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name, .b-user[id="78160"] a.name, .b-user16>img[src*="78160.png"]+span {
+    color: #00aa11;
+}
+
+/* Innocent Black 512200 */
+.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 8 ранга: Стальной\0aВикторины: 🥈";
 }
 .b-comment[data-user_id="78160"]:not(.tooltipped) header a.name, .b-user[id="78160"] a.name, .b-user16>img[src*="78160.png"]+span {
     color: #00aa11;
@@ -140,7 +150,7 @@
 /* tikhoplet 323591 */
 .b-comment[data-user_id="323591"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Авантюрист №2 (Ранг 7: Сапфировый)";
+	content: "Авантюрист №2 (Ранг 6: Изумрудный)";
 }
 .b-comment[data-user_id="323591"]:not(.tooltipped) header a.name, .b-user[id="323591"] a.name, .b-user16>img[src*="323591.png"]+span {
     color: #00aa11;
@@ -167,7 +177,7 @@
 /* World_Houp 34807 */
 .b-comment[data-user_id="34807"]:not(.tooltipped) header a.name:hover:after 
 {
-	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 5: Рубиновый)\0aПервый рыцарь бездны\0aВикторины: 🥇🥇";
+	content: "Лунная призма, дай мне топ-1!\0a\0aАвантюрист №1 (Ранг 4: Бронзовый)\0aПервый рыцарь бездны\0aВикторины: 🥇🥇🥈";
 }
 .b-comment[data-user_id="34807"]:not(.tooltipped) header a.name, .b-user[id="34807"] a.name, .b-user16>img[src*="34807.png"]+span {
     color: #00aa11;
