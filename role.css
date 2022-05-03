@@ -132,11 +132,11 @@
 }
 
 /* Innocent Black 512200 */
-.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name:hover:after 
+.b-comment[data-user_id="512200"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Авантюрист 8 ранга: Стальной\0aВикторины: 🥇";
 }
-.b-comment[data-user_id="78160"]:not(.tooltipped) header a.name, .b-user[id="78160"] a.name, .b-user16>img[src*="78160.png"]+span {
+.b-comment[data-user_id="512200"]:not(.tooltipped) header a.name, .b-user[id="512200"] a.name, .b-user16>img[src*="512200.png"]+span {
     color: #000;
 }
 
