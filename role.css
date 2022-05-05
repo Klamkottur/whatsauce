@@ -189,6 +189,9 @@
 -- Pixl 213997
 -- MaDDanieL 563020
 -- Dr.GK 558352
+-- Your Last Neuron 968936
+-- RGiahh 439749
+-- йынвломзеБ 775846
 */
 
 /* Daisuke Kanbe 753419 */
@@ -221,4 +224,21 @@
 	content: "Мастер кисок";
 }
 
+/* Your Last Neuron 968936 */
+.b-comment[data-user_id="968936"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
+
+/* RGiahh 439749 */
+.b-comment[data-user_id="439749"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
+
+/* йынвломзеБ 775846 */
+.b-comment[data-user_id="775846"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
 
