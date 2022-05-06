@@ -192,6 +192,8 @@
 -- Your Last Neuron 968936
 -- RGiahh 439749
 -- йынвломзеБ 775846
+-- DemoArt 1095787
+-- Розовый Хук 705293
 */
 
 /* Daisuke Kanbe 753419 */
@@ -238,6 +240,18 @@
 
 /* йынвломзеБ 775846 */
 .b-comment[data-user_id="775846"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
+
+/* DemoArt 1095787 */
+.b-comment[data-user_id="1095787"]:not(.tooltipped) header a.name:hover:after 
+{
+	content: "Авантюрист 10 ранга: Фарфоровый";
+}
+
+/* Розовый Хук 705293 */
+.b-comment[data-user_id="705293"]:not(.tooltipped) header a.name:hover:after 
 {
 	content: "Авантюрист 10 ранга: Фарфоровый";
 }
