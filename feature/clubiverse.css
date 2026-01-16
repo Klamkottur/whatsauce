@@ -97,16 +97,16 @@
 .b-clubs .b-club[id='2950']::before,
 .b-club.c-2950::before
 {
-    background-image: url(https://desu.shikimori.one/system/user_images_h/original/4c22dfd850e3c7d2516740c0/dbda3be444a0145c338e863ec57513c5277a922bea30bb1acdc03b90d914ff24.jpg);
+    background-image: url(https://i.imgur.com/yOuKWk2.jpeg);
 }
 .b-club[id='2950'] .name-logo::before, .b-club.c-2950 .name-logo::before  {
-    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/2950.png);
+    background-image: url(https://shikimori.one/system/clubs/main/2950.png);
 }
 .b-clubs-menu .clubs .b-club[id='2950']:hover .name-logo::after,
 .b-clubs .b-club[id='2950']:hover .name-logo::after,
 .b-club.c-2950:hover .name-logo::after
 {
-    background-image: url(https://moe.shikimori.one/system/images/original/124357.jpg);
+    background-image: url(https://i.imgur.com/3UOMyYB.jpeg);
 }
 
 /* Соусы */
@@ -114,16 +114,16 @@
 .b-clubs .b-club[id='3002']::before,
 .b-club.c-3002::before
 {
-    background-image: url(https://desu.shikimori.one/system/images/original/124338.jpg);
+    background-image: url(https://i.imgur.com/a93FMa9.jpeg);
 }
 .b-club[id='3002'] .name-logo::before, .b-club.c-3002 .name-logo::before {
-    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3002.png);
+    background-image: url(https://shikimori.one/system/clubs/main/3002.png);
 }
 .b-clubs-menu .clubs .b-club[id='3002']:hover .name-logo::after,
 .b-clubs .b-club[id='3002']:hover .name-logo::after,
 .b-club.c-3002:hover .name-logo::after
 {
-    background-image: url(https://dere.shikimori.one/system/images/original/124359.jpg);
+    background-image: url(https://i.imgur.com/7GXSvLr.jpeg);
 }
 
 /* Хранилище Шики */
@@ -131,16 +131,16 @@
 .b-clubs .b-club[id='3000']::before,
 .b-club.c-3000::before
 {
-    background-image: url(https://kawai.shikimori.one/system/images/original/124341.jpg);
+    background-image: url(https://i.imgur.com/BM1iNoH.jpeg);
 }
 .b-club[id='3000'] .name-logo::before, .b-club.c-3000 .name-logo::before {
-    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3000.png);
+    background-image: url(https://shikimori.one/system/clubs/main/3000.png);
 }
 .b-clubs-menu .clubs .b-club[id='3000']:hover .name-logo::after,
 .b-clubs .b-club[id='3000']:hover .name-logo::after,
 .b-club.c-3000:hover .name-logo::after
 {
-    background-image: url(https://desu.shikimori.one/system/images/original/124358.jpg);
+    background-image: url(https://i.imgur.com/amaWtRQ.jpeg);
 }
 
 /* Анархия */
@@ -159,16 +159,16 @@
 .b-clubs .b-club[id='3055']::before,
 .b-club.c-3055
 {
-    background-image: url(https://dere.shikimori.one/system/images/original/124339.jpg);
+    background-image: url(https://i.imgur.com/2oTHnrE.png);
 }
 .b-club[id='3055'] .name-logo::before, .b-club.c-3055 .name-logo::before {
-    background-image: url(https://nyaa.shikimori.one/system/clubs/x96/3055.png);
+    background-image: url(https://shikimori.one/system/clubs/main/3055.png);
 }
 .b-clubs-menu .clubs .b-club[id='3055']:hover .name-logo::after,
 .b-clubs .b-club[id='3055']:hover .name-logo::after,
 .b-club.c-3055:hover .name-logo::after
 {
-    background-image: url(https://kawai.shikimori.one/system/images/original/124356.jpg);
+    background-image: url(https://i.imgur.com/oDv9a4c.jpeg);
 }
 
 
@@ -180,7 +180,7 @@
     background-image: url(https://raw.githubusercontent.com/Klamkottur/whatsauce/refs/heads/main/files/padoru.jpg);
 }
 .b-club[id='3668'] .name-logo::before, .b-club.c-3668 .name-logo::before {
-    background-image: url(https://nyaa.shikimori.one/system/clubs/main/3668.jpg);
+    background-image: url(https://shikimori.one/system/clubs/main/3668.jpg);
 }
 .b-clubs-menu .clubs .b-club[id='3668']:hover .name-logo::after,
 .b-clubs .b-club[id='3668']:hover .name-logo::after,
