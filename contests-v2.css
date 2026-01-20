@@ -244,7 +244,7 @@ body[data-user*='"id":583040'] .admin-info {
 .b-poll .poll::before {
 	display: inline-block;
   	content: '';
-  	background: url(https://moe.shikimori.one/system/clubs/main/3002.png);
+  	background: url(https://shikimori.one/system/clubs/main/3002.png);
     width: 64px;
     height: 64px;
     background-size: cover;
